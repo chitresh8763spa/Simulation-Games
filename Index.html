@@ -1,0 +1,135 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Supply Chain Horizons 2025 Simulation&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root { --primary: #003366; --secondary: #e74c3c; --success: #27ae60; --bg: #f4f7f6; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; padding: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header { border-bottom: 2px solid var(--primary); margin-bottom: 20px; padding-bottom: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card { background: var(--primary); color: white; padding: 15px; border-radius: 8px; text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card h3 { margin: 0; font-size: 0.9em; opacity: 0.8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card p { margin: 5px 0 0; font-size: 1.4em; font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.game-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-zone, .event-log { padding: 15px; border: 1px solid #ddd; border-radius: 8px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button { width: 100%; padding: 12px; margin: 10px 0; cursor: pointer; border: none; border-radius: 5px; background: #2c3e50; color: white; font-weight: bold; transition: 0.3s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:hover { background: var(--primary); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:disabled { background: #ccc; cursor: not-allowed; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.log-entry { font-size: 0.85em; margin-bottom: 8px; padding-bottom: 5px; border-bottom: 1px solid #eee; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.impact-red { color: var(--secondary); font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.impact-green { color: var(--success); font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Supply Chain Horizons 2025&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Strategic Simulation: Navigate the Digital Transformation Journey&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stats-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card"&gt;&lt;h3&gt;Budget&lt;/h3&gt;&lt;p&gt;$&lt;span id="budget"&gt;10.0&lt;/span&gt;M&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card"&gt;&lt;h3&gt;Forecast Accuracy&lt;/h3&gt;&lt;p&gt;&lt;span id="accuracy"&gt;48&lt;/span&gt;%&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card"&gt;&lt;h3&gt;OTIF Rate&lt;/h3&gt;&lt;p&gt;&lt;span id="otif"&gt;52&lt;/span&gt;%&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card"&gt;&lt;h3&gt;Inventory Turn&lt;/h3&gt;&lt;p&gt;&lt;span id="inv"&gt;52&lt;/span&gt; Days&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="game-controls"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="action-zone"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Strategic Investments&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="btn-cloud" onclick="investCloud()"&gt;Cloud Migration ($2.0M)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="btn-ai" onclick="investAI()"&gt;GenAI Implementation ($1.5M)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="optimizeNetwork()"&gt;Network Re-optimization ($0.5M)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="nextQuarter()" style="background:var(--success)"&gt;Next Quarter&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event-log"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Operations Log&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="log-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="log-entry"&gt;Year 2025 Q1: Started with Legacy Systems. &lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let state = {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>budget: 10.0,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>accuracy: 48, // Report avg [cite: 23]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>otif: 52, <span class="Apple-converted-space">    </span>// Report avg [cite: 23]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>invDays: 52,<span class="Apple-converted-space">  </span>// Report avg [cite: 24]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>hasCloud: false,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>hasAI: false,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>quarter: 1</p>
+<p class="p1"><span class="Apple-converted-space">    </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function updateUI() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('budget').innerText = state.budget.toFixed(1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('accuracy').innerText = state.accuracy;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('otif').innerText = state.otif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('inv').innerText = state.invDays;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('btn-cloud').disabled = state.hasCloud || state.budget &lt; 2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('btn-ai').disabled = state.hasAI || state.budget &lt; 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function log(msg) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const lb = document.getElementById('log-box');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>lb.innerHTML = `&lt;div class="log-entry"&gt;${msg}&lt;/div&gt;` + lb.innerHTML;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function investCloud() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.budget -= 2.0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.hasCloud = true;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.otif += 5;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>log("&lt;span class='impact-green'&gt;Cloud Migration:&lt;/span&gt; Scalability improved. 39% more access to innovation. [cite: 129]");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>updateUI();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function investAI() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.budget -= 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.hasAI = true;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.accuracy += 10;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.invDays -= 5;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>log("&lt;span class='impact-green'&gt;GenAI Deployment:&lt;/span&gt; Forecast accuracy improved. (Report: AI boosts planning by 32%). [cite: 54]");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>updateUI();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function optimizeNetwork() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.budget -= 0.5;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>log("&lt;span class='impact-green'&gt;Network Optimization:&lt;/span&gt; Re-balancing flows to mitigate potential tariff impacts. [cite: 201]");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function nextQuarter() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>state.quarter++;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Random Disruption based on Report Page 36</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (Math.random() &gt; 0.6) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const loss = state.hasCloud ? 0.6 : 1.0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>state.budget -= loss;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>log(`&lt;span class='impact-red'&gt;Disruption:&lt;/span&gt; Global Supply Shock! Loss: $${loss}M. (Legacy systems feel full $1.0M impact). [cite: 200]`);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>log(`Quarter ${state.quarter}: Standard operations. Inventory holding costs apply.`);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>updateUI();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
